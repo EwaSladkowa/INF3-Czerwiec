@@ -2,7 +2,9 @@
 
 (KW2)   SELECT `Ryby_id`,`wymiar_ochronny` FROM `okres_ochronny` WHERE `wymiar_ochronny` <30;
 
-
+(KW3)   SELECT ryby.nazwa, lowisko.akwen, lowisko.wojewodztwo 
+	FROM ryby
+ 	JOIN lowisko on ryby.id = lowisko.Ryby_id;
 
 
 

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica;
+    height: 100%;
+}
+header{
+    font-size: 130%;
+    padding: 5px;
+    text-align: center;
+    background-color: #00838F;
+    color: white;
+}
+footer{
+    font-size: 130%;
+    padding: 5px;
+    text-align: center;
+    background-color: #00838F;
+    color: white;
+}
+.lewy{
+    background-color: #EFEFEF;
+    
+}
+.lewy1{
+    height: 150px;
+}
+.lewy2{
+    height: 300px;
+}
+.prawy{
+    background-color: #4FB3BF ;
+    height: 450px;
+    text-align: center;
+}
+img{
+    box-shadow: 10px 10px 7px DimGray;
+    margin: 20px;
+    width: 400px;
+    height: 350px;
+    justify-content: center;
+}
+td, th {
+    border: 1px solid #4FB3BF;
+
+}
+.table{
+    margin: auto;
+    width: 80%;
+
+}
+th{
+    padding: 4px;
+}
+.lewyprawy{
+    display: grid;
+    grid-template-columns: 55% 45%;
+
+}
