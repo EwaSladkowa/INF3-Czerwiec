@@ -1,0 +1,20 @@
+(KW1)   SELECT `id`, `nazwa`, `wystepowanie` FROM `ryby` WHERE  `styl_zycia` = 1
+
+(KW2)   SELECT `Ryby_id`,`wymiar_ochronny` FROM `okres_ochronny` WHERE `wymiar_ochronny` <30;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://egzamin-informatyk.pl/arkusz-praktyczny-inf03-2022-06-01/
